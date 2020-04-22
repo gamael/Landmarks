@@ -43,6 +43,8 @@
 		60ADB3A8244E39C20056B1A5 /* HikeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60ADB3A7244E39C20056B1A5 /* HikeDetail.swift */; };
 		60ADB3AA244E3A5A0056B1A5 /* HikeGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60ADB3A9244E3A590056B1A5 /* HikeGraph.swift */; };
 		60ADB3AC244E3B960056B1A5 /* GraphCapsule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60ADB3AB244E3B960056B1A5 /* GraphCapsule.swift */; };
+		60ADB3AF245099C70056B1A5 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60ADB3AE245099C70056B1A5 /* Home.swift */; };
+		60ADB3B124509F780056B1A5 /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60ADB3B024509F780056B1A5 /* CategoryRow.swift */; };
 		60EFB650244B65FC00C671B6 /* charleyrivers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 60EFB64F244B65FC00C671B6 /* charleyrivers.jpg */; };
 		60EFB652244B68C400C671B6 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EFB651244B68C400C671B6 /* UserData.swift */; };
 /* End PBXBuildFile section */
@@ -86,6 +88,8 @@
 		60ADB3A7244E39C20056B1A5 /* HikeDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeDetail.swift; sourceTree = "<group>"; };
 		60ADB3A9244E3A590056B1A5 /* HikeGraph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeGraph.swift; sourceTree = "<group>"; };
 		60ADB3AB244E3B960056B1A5 /* GraphCapsule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphCapsule.swift; sourceTree = "<group>"; };
+		60ADB3AE245099C70056B1A5 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		60ADB3B024509F780056B1A5 /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
 		60EFB64F244B65FC00C671B6 /* charleyrivers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = charleyrivers.jpg; sourceTree = "<group>"; };
 		60EFB651244B68C400C671B6 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -120,6 +124,8 @@
 		596BC828244901E900F7404F /* California Landmarks */ = {
 			isa = PBXGroup;
 			children = (
+				60ADB3AE245099C70056B1A5 /* Home.swift */,
+				60ADB3B024509F780056B1A5 /* CategoryRow.swift */,
 				60ADB3AD245096F10056B1A5 /* Hike */,
 				60435B11244E0C39007FC4A8 /* Badge */,
 				6095F88C244A3F7F00413D2E /* Resources */,
@@ -298,6 +304,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60ADB3B124509F780056B1A5 /* CategoryRow.swift in Sources */,
 				60ADB3AC244E3B960056B1A5 /* GraphCapsule.swift in Sources */,
 				60ADB3A4244E39860056B1A5 /* Hike.swift in Sources */,
 				60435B0A244DF815007FC4A8 /* HexagonParameters.swift in Sources */,
@@ -311,6 +318,7 @@
 				6095F8AE244A46C300413D2E /* LandmarkList.swift in Sources */,
 				60435B0E244E0791007FC4A8 /* BadgeSymbol.swift in Sources */,
 				596BC82C244901E900F7404F /* SceneDelegate.swift in Sources */,
+				60ADB3AF245099C70056B1A5 /* Home.swift in Sources */,
 				60ADB3A8244E39C20056B1A5 /* HikeDetail.swift in Sources */,
 				60435B0C244E009D007FC4A8 /* BadgeBackground.swift in Sources */,
 				596BC82E244901E900F7404F /* LandmarkDetail.swift in Sources */,
